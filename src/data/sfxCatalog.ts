@@ -1,0 +1,68 @@
+import { SoundEffectItem } from '../types';
+
+export const SFX_CATALOG: SoundEffectItem[] = [
+  {
+    id: 'sfx_impact_heavy',
+    name: 'Golpe Pesado (Impact)',
+    category: 'impact',
+    duration: 0.4,
+    description: 'Soco de impacto direto com onda de choque grave',
+    soundType: 'impact',
+  },
+  {
+    id: 'sfx_katana_slash',
+    name: 'Corte de Katana (Slash)',
+    category: 'action',
+    duration: 0.3,
+    description: 'Corte veloz de lâmina metálica com ressonância',
+    soundType: 'slice',
+  },
+  {
+    id: 'sfx_dramatic_chord',
+    name: 'Tensão Dramática (Sting)',
+    category: 'ambient',
+    duration: 1.8,
+    description: 'Acorde sombrio menor para revelações e reviravoltas',
+    soundType: 'dramatic',
+  },
+  {
+    id: 'sfx_magic_aura',
+    name: 'Aura Mística (Spell)',
+    category: 'magic',
+    duration: 0.7,
+    description: 'Acúmulo de energia mágica espiritual e sinos etéreos',
+    soundType: 'magic',
+  },
+  {
+    id: 'sfx_page_turn',
+    name: 'Virar de Página (Paper)',
+    category: 'interface',
+    duration: 0.2,
+    description: 'Folheamento nítido de mangá tradicional',
+    soundType: 'page_turn',
+  },
+  {
+    id: 'sfx_wind_gust',
+    name: 'Rajada de Vento (Gust)',
+    category: 'ambient',
+    duration: 1.5,
+    description: 'Vento cortante de planície em campo de batalha',
+    soundType: 'wind',
+  },
+  {
+    id: 'sfx_heartbeat_tense',
+    name: 'Batimento Cardíaco (Tension)',
+    category: 'action',
+    duration: 0.5,
+    description: 'Pulso acelerado em momentos de perigo iminente',
+    soundType: 'heartbeat',
+  },
+  {
+    id: 'sfx_thunder_rumble',
+    name: 'Trovão Distante (Thunder)',
+    category: 'ambient',
+    duration: 2.0,
+    description: 'Estrondo poderoso de tempestade nas nuvens',
+    soundType: 'thunder',
+  },
+];

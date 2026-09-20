@@ -1,0 +1,6 @@
+{
+  "name": "Manga Voice Studio",
+  "description": "Estúdio profissional para dublagem e animação de mangás com detecção de balões, OCR, elenco de vozes, sincronia labial e timeline de áudio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
